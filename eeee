@@ -1,9 +1,18 @@
 game.StarterGui:SetCore("SendNotification", {
     Title = "👑WW2WARE";
-    Text = "Welcome";
-    Duration = 3;
+    Text = "Please Wait";
+    Duration = 7;
 })
-wait(3)
+wait(1)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "👑WW2WARE";
+    Text = "Loaded In";
+    Duration = 7;
+})
+wait(1)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dapro0557/esp/main/project"))()
 function notify(L_461_arg0, L_462_arg1, L_463_arg2)
 		game.StarterGui:SetCore("SendNotification", {
 			Title = L_461_arg0;
