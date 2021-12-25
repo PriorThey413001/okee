@@ -32,7 +32,7 @@ function notify(L_461_arg0, L_462_arg1, L_463_arg2)
 	local L_450_ = getgenv().Settings
 	_G.KEY = "q"
 	_G.PART = "HumanoidRootPart"
-	_G.PRED = 0.057
+	_G.PRED = 0.14
 	_G.Frame = Vector3.new(0, 0.53, 0)
 	local L_451_ = game:GetService "Workspace".CurrentCamera
 	local L_452_
